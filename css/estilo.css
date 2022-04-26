@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: violet;
+  
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    float: left;
+    background-color: rgb(91, 162, 244);
+}
+
+main{
+    width: 100%;
+    float: left;
+    background-color: coral;
+}
+
+footer{
+    width: 100%;
+    height: 140px;
+    float: left;
+    background-color: rgb(219, 230, 124);
+}
+
+#banner{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: rgb(241, 114, 193);
+}
+
+#produtos{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: aqua;
+}
+
+.produtos-colunas{
+    width: 25%;
+    height: 500px;
+    float: left;
+    background-color: blueviolet;
+    border: 1px solid #000;
+}
+
+#destaques{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: rgb(43, 153, 200);
+   
+}
+
+.destaques-colunas{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: rgb(65, 205, 158);
+    border: 1px solid #000;
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 700px){
+    #container{
+        width: 100%;
+    }
+
+    .produtos-colunas{
+        width: 50%;
+        height: 400px;
+    }
+
+    .destaques-colunas{
+        width: 100%;
+    }
+
+    
+}
